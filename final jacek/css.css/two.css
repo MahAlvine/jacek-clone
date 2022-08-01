@@ -1,0 +1,19 @@
+.section-2{
+    margin: 10rem 5rem;
+}
+.section-2 h2::before{
+    content: "<h2>";
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    font-size: 1.2rem;
+    margin-top: 4.4rem;
+    margin-left: -6rem;
+    color: var(--input-color);
+}
+.section-2 h2::after{
+    content: "</h2>";
+    position: absolute;
+    font-size: 1.2rem;
+    font-family: La Belle Aurore, cursive;
+    color: var(--input-color);
+}

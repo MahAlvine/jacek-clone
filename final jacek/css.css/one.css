@@ -1,0 +1,73 @@
+.section-1{
+    margin: 10rem 5rem;
+}
+
+body::before{
+    content: "<html>";
+    margin-left: 8rem;
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    top: 1rem;
+}
+
+.body::before{
+    content: "<body>";
+    margin-left: 2rem;
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    top: 3rem;
+}
+
+.section-1 h1{
+    margin-bottom: 4rem;
+    font-size: 4.5rem;
+    letter-spacing: .3rem;
+}
+
+.section-1 h1 span:hover{
+    color: var(--main-blue-color);
+    transition: .3s;
+}
+
+.section-1 h1::before{
+    content: "<h1>";
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    font-size: 1.2rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.section-1 h1::after{
+    content: "</h1>";
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    font-size: 1.2rem;
+    margin-top: 4.4rem;
+    margin-left: -1rem;
+}
+
+.section-1 p{
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+}
+
+.section-1 p::before{
+    content: "<h1>";
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    font-size: 1.2rem;
+    margin-top: -1.5rem;
+    margin-left: -1.7rem;
+}
+
+.section-1 p::after{
+    content: "</h1>";
+    position: absolute;
+    font-family: La Belle Aurore, cursive;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: -25rem;
+}
+
+

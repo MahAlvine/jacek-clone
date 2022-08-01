@@ -1,0 +1,129 @@
+.section-5{
+    width: 100%;
+    
+}
+.section-5 .big {
+    font-size: 22rem;
+    color: #222;
+    z-index: -11;
+    bottom: -310%;
+    right: 30%;
+    margin-top: -13rem;
+    position: absolute;
+}
+
+
+.art-wrapper{
+    display: grid;
+    grid-template-columns:repeat( 3, 1fr);
+    grid-gap: 1rem;
+    padding: 4rem;
+}
+.art-wrapper article{
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 7px #0003;
+    background-color: #222;
+
+}
+.art-wrapper article:nth-child(1)
+
+{
+    border-top: 2px solid yellowgreen;
+}
+.art-wrapper article:nth-child(1) h3{
+    color: yellowgreen;
+
+}
+.art-wrapper article:nth-child(2)
+
+{
+    border-top: 2px solid #81D8F7;
+}
+.art-wrapper article:nth-child(2) h3{
+    color: #81D8F7;
+
+}
+.art-wrapper article:nth-child(3)
+
+{
+    border-top: 2px solid #f50057;
+}
+.art-wrapper article:nth-child(3) h3{
+    color: #f50057;
+
+}
+.art-wrapper article:nth-child(4)
+
+{
+    border-top: 2px solid #f50057;
+}
+.art-wrapper article:nth-child(4) h3{
+    color: #f50057;
+
+}
+.art-wrapper article:nth-child(5)
+
+{
+    border-top: 2px solid orange;
+}
+.art-wrapper article:nth-child(5) h3{
+    color: orange;
+
+}
+.art-wrapper article:nth-child(6)
+
+{
+    border-top: 2px solid orange;
+}
+.art-wrapper article:nth-child(6) h3{
+    color: orange;
+
+}
+.art-wrapper article h1{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+.art-wrapper article h1:hover{
+    color:  #06b99e;
+}
+.art-wrapper article p{
+    color: #909096;
+}
+.little-link{
+    text-align: center;
+}
+.little-link a{
+    text-decoration: none;
+    color: var(--main-blue-color);
+}
+.little-link a:hover{
+    color: white;
+}
+
+ /* media query for blog section
+ @media screen and (min-width: 1200px){
+ .section-5{
+    width: 90%;
+    margin: 100px auto 0;
+}
+.section-5 .big{
+    font-size: 27rem;
+    top: -270px;
+}
+.art-wrapper{
+    width: 90%;
+    margin: 0 0 0 auto;
+    flex-flow: row wrap;
+}
+articles{
+    width: 340px;
+    height: 270px;
+}
+.art-wrapper h1{
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+
+} */
